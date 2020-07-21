@@ -1,10 +1,10 @@
 //信号灯输出口
 const int LED_MSG_PIN = 13;
 
-//定义了板上的4个控制端，12一组，34一组
+//定义了板上的控制端，8作为方向
 const int DIRECTION_PIN = 8;
 
-//定义了PWM引脚，需要将这两个脚接入PUL端
+//定义了PWM引脚，需要将这个脚接入PUL端
 const int SPEED_PUL_PIN = 9;
 
 //定义串口接受数据的全局变量
